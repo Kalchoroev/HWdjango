@@ -1,0 +1,36 @@
+.regForm {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+}
+.regForm>p{
+    margin: 5px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.regForm button{
+    width: 200px;
+    margin: 10px auto 0;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.regForm button:hover {
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-size: 16px;
+    line-height: 20px;
+}
+.regField {
+    height: 20px;
+    padding: 0 5px;
+}
